@@ -10,6 +10,8 @@ namespace Task1_2
             int n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"Двоичное представление числа {n} стандартным средством:\t{Convert.ToString(n, 2)}");
             Console.WriteLine($"Двоичное представление числа {n}:\t\t\t{ToBin(n)}");
+
+            Console.ReadKey();
         }
 
         static string ToBin(int n)
